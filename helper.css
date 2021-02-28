@@ -1,0 +1,245 @@
+
+/*
+#span1, #span2, #span3, #span4, #span5, #span6, #span7, #span8, #span9{
+		opacity: .5;  font-size:23px;
+	} */
+/* ########################-------------creditcard-----------#######################*/		
+	#creditcard{
+		position: absolute;
+		left: 140px;
+		bottom: 250px;
+		width:100px;
+		height: 50px;
+		padding: 15px;	
+		text-align: center;
+		line-height: 25px;
+	}
+	#span1{
+		font-size: 25px;
+		color: black;
+		animation: creditcard ;
+		animation-duration: 27s;
+		animation-delay: -24s;
+		animation-timing-function: step-start;
+		animation-iteration-count: infinite;
+
+	}
+    @keyframes creditcard{
+		0%, 88%{opacity: .5;  font-size:20px;}
+		89%, 99%{opacity: 1; font-size:25px; text-shadow: 0px 10px 10px #234D3C;}
+		100%{opacity: .5;  font-size:20px;}
+    } 
+	
+	
+/* ########################-------------payment-----------#######################*/		
+	#payment{
+		position: absolute;
+		left: 80px;
+		bottom: 350px;
+		width:100px;
+		height: 50px;
+		padding: 15px;	
+		text-align: center;
+		line-height: 25px;
+	}
+	#span2{
+		font-size: 25px;
+		color: black;
+		animation: payment ;
+		animation-duration: 27s;
+		animation-delay: -21s;
+		animation-timing-function: step-start;
+		animation-iteration-count: infinite;
+
+	}
+    @keyframes payment{
+		0%, 88%{opacity: .5;  font-size:20px; }
+		89%, 99%{opacity: 1; font-size:25px; text-shadow: 0px 10px 10px #234D3C;} 
+		100%{opacity: .5;  font-size:20px;}
+    } 
+
+/* ########################-------------loan-----------#######################*/		
+	#loan{
+		position: absolute;
+		left: 60px;
+		bottom: 430px;
+		width:100px;
+		height: 50px;
+		padding: 15px;	
+		text-align: center;
+		line-height: 25px;
+	}
+	#span3{
+		font-size: 25px;
+		color: black;
+		animation: loan ;
+		animation-duration: 27s;
+		animation-delay: -18s;
+		animation-timing-function: step-start;
+		animation-iteration-count: infinite;
+
+	}
+    @keyframes loan{
+		0%, 88%{opacity: .5;  font-size:20px;}
+		89%, 99%{opacity: 1; font-size:25px; text-shadow: 0px 10px 10px #234D3C;} 
+		100%{opacity: .5;  font-size:20px;}
+    } 
+
+/* ########################-------------support-----------#######################*/		
+	#support{
+		position: absolute;
+		left: 80px;
+		bottom: 520px;
+		width:100px;
+		height: 50px;
+		padding: 15px;	
+		text-align: center;
+		line-height: 25px;
+	}
+	#span4{
+		font-size: 25px;
+		color: black;
+		animation: support ;
+		animation-duration: 27s;
+		animation-delay: -15s;
+		animation-timing-function: step-start;
+		animation-iteration-count: infinite;
+
+	}
+    @keyframes support{
+		0%, 88%{opacity: .5;  font-size:20px;}
+		89%, 99%{opacity: 1; font-size:25px; text-shadow: 0px 10px 10px #234D3C;} 
+		100%{opacity: .5;  font-size:20px;}
+    } 
+/* ########################-------------rewards-----------#######################*/		
+	#rewards{
+		position: absolute;
+		left: 160px;
+		bottom: 590px;
+		width:100px;
+		height: 50px;
+		padding: 15px;	
+		text-align: center;
+		line-height: 25px;
+	}
+	#span5{
+		font-size: 25px;
+		color: black;
+		animation: rewards ;
+		animation-duration: 27s;
+		animation-delay: -12s;
+		animation-timing-function: step-start;
+		animation-iteration-count: infinite;
+
+	}
+    @keyframes rewards{
+		0%, 88%{opacity: .5;  font-size:20px;}
+		89%, 99%{opacity: 1; font-size:25px; text-shadow: 0px 10px 10px #234D3C;} 
+		100%{opacity: .5;  font-size:20px;}
+    } 
+	
+/* ########################-------------savings-----------#######################*/		
+	#savings{
+		position: absolute;
+		left: 300px;
+		top: 10px;
+		width:100px;
+		height: 50px;
+		padding: 15px;	
+		text-align: center;
+		line-height: 25px;
+	}
+	#span6{
+		font-size: 25px;
+		color: black;
+		animation: savings ;
+		animation-duration: 27s;
+		animation-delay: -9s;
+		animation-timing-function: step-start;
+		animation-iteration-count: infinite;
+
+	}
+    @keyframes savings{
+		0%, 88%{opacity: .5;  font-size:20px;}
+		89%, 100%{opacity: 1; font-size:25px; text-shadow: 0px 10px 10px #234D3C;} 
+    } 
+/* ########################-------------investments-----------#######################*/		
+	#investments{
+		position: absolute;
+		right: 50px;
+		bottom: 550px;
+		width:100px;
+		height: 50px;
+		padding: 15px;	
+		text-align: center;
+		line-height: 25px;
+	}
+	#span7{
+		font-size: 25px;
+		color: black;
+		animation: investments ;
+		animation-duration: 27s;
+		animation-delay: -6s;
+		animation-timing-function: step-start;
+		animation-iteration-count: infinite;
+
+	}
+    @keyframes investments{
+		0%, 88%{opacity: .5;  font-size:20px;}
+		89%, 99%{opacity: 1; font-size:25px; text-shadow: 0px 10px 10px #234D3C;} 
+		100%{opacity: .5;  font-size:20px;}
+    } 
+/* ########################-------------forex-----------#######################*/		
+	#forex{
+		position: absolute;
+		right: 25px;
+		bottom: 450px;
+		width:100px;
+		height: 50px;
+		padding: 15px;	
+		text-align: center;
+		line-height: 25px;
+	}
+	#span8{
+		font-size: 25px;
+		color: black;
+		animation: forex ;
+		animation-duration: 27s;
+		animation-delay: -3s;
+		animation-timing-function: step-start;
+		animation-iteration-count: infinite;
+
+	}
+    @keyframes forex{
+		0%, 88%{opacity: .5;  font-size:20px;}
+		89%, 99%{opacity: 1; font-size:25px; text-shadow: 0px 10px 10px #234D3C;} 
+		100%{opacity: .5;  font-size:20px;}
+    } 
+/* ########################-------------analytics-----------#######################*/		
+	#analytics{
+		position: absolute;
+		right: 20px;
+		bottom: 350px;
+		width:100px;
+		height: 50px;
+		padding: 15px;	
+		text-align: center;
+		line-height: 25px;
+	}
+	#span9{
+		font-size: 25px;
+		color: black;
+		animation: analytics ;
+		animation-duration: 27s;
+		animation-delay: 0s;
+		animation-timing-function: step-start;
+		animation-iteration-count: infinite;
+
+	}
+    @keyframes analytics{
+		0%, 88%{opacity: .5;  font-size:20px;}
+		89%, 99%{opacity: 1; font-size:25px; text-shadow: 0px 10px 10px #234D3C;} 
+		100%{opacity: .5;  font-size:20px;} 
+    } 
+	
+	

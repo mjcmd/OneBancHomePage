@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>OneBanc - EARN | TRACK | INVEST | GROW</title>
+<link rel="shortcut icon" href="https://onebanc.ai/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="css/all.css">
+<link rel="stylesheet" type="text/css" href="helper.css">
+
+
+<style>
+
+#anim {
+  top : 300px;
+  left: 25px;
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-size: 48px;
+  //background-color: white;
+  /*animation-name: example1;
+  animation-duration: .5s;
+  animation-iteration-count:infinite; */
+}
+
+@keyframes example1 {
+    0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+#emailborder {
+	position: absolute;
+	background-color: #24478f;
+	top: 520px;
+	left:25px;
+	width: 318px; 
+	padding:10px 5px 15px 10px;
+	border-radius: 5px;
+	
+}
+#ipbox {
+	background-color: white; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+
+}
+#enter {
+  background-color: #00e6e6; /* Green */
+  border: none;
+  color: white;
+  //font-size: 40px;
+  padding: 10px 30px 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  
+}
+#enter:hover { cursor: pointer;}
+
+#desc {
+	position: absolute;
+	top: 400px;
+	left: 25px;
+	color: white;
+	font-size: 18px;
+	
+}
+
+#grad1 {
+  height: 200px;
+  //background-color: #0073e6;
+  //background-color: red; /* For browsers that do not support gradients */
+   background-image:linear-gradient(to right, #0073e6 , #0073e6,  white, white);//, linear-gradient(to left, white, #0073e6);
+  
+}
+ /*style = "background-color: #0073e6;*/"
+ 
+ 
+ #lg {
+
+    animation: blinker 1s linear infinite;  //animation: blinker 1.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+@keyframes blinker {  
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+#reg {
+	//border: solid;
+	//border-color: black;
+	width: 600px;
+	height: 700px;
+	position: absolute;
+	right : 580px; 
+	top:10px;
+}
+#one {
+	//border: solid;
+	//border-color: black;
+	width: 600px;
+	height: 700px;
+	position: absolute;
+	right : 50px; 
+	top:10px;
+}
+
+</style>
+
+</head>
+<body id = "grad1">
+
+
+
+<img id = "lg" src = "logo_onebanc.png" style = "position:absolute; left : 25px; top:53px; width: 85%; max-width: 330px;"> 
+
+<div style = "position: absolute; left: 25px; top: 180px; font-size: 48px; color: white; "> RE: <br> THINK <br> <div id="animtext"> </div> </div>
+
+
+
+<!-- <div id = "anim"> |</div>
+
+
+<div class='container' style='position: relative; overflow: hidden; width: 200px; height: 300px; background-color: #161f6e;'>
+  <div class='divider' style='position: absolute; left: 26px; top: -100px; width: 300px; height: 500px; border-radius: 100% 0 0 60%; background-color: #52b9c0;'></div>
+  <div class='image' style='position: absolute; left: 60px; top: -100px; width: 300px; height: 500px; border-radius: 50% 0 0 50%; background-color: #000000;'></div>
+</div>
+  -->
+<p id = "desc" >
+We are a Neo Bank and are here to re-imagine<br>and re-invent Banking. We are cool and simply<br>awesome!
+</p>
+  
+ <form id ="emailborder">
+  <label style = "color: white;">Get an early invitation for our Beta release. <br> </label>
+  <input id = "ipbox" type="email" placeholder="Enter Email Address" >
+  <input id = "enter" type="submit" value="&#8594;">
+</form>
+
+<img src = "qr_code.png" style = "position:absolute; left : 25px; top:650px; width: 70%; max-width: 330px; height: 20%;">
+
+
+
+
+
+<p style = "position: absolute; top: 800px; left: 25px; color: white; font-size: 12px">
+ Terms & Conditions | Privacy Policy<br>
+ 2021 © OneBanc Technologies Pvt. Ltd.     
+</p>
+
+
+
+<div style = "width: 1200px; height: 900px; position: absolute; right: 5px; top: 0px; " >
+
+
+<img src = "divider.png" style = "position:absolute; right : 600px; top:50px; width: .2%;  ">
+<div style = " position: absolute; right:210px; bottom: 40px; font-size: 30px; font-family: cursive;" > #OneBanc</div>
+<div style = " position: absolute; left: 250px; bottom: 165px; font-size: 30px; font-family: cursive;" > #RegularBank</div>
+
+
+<div id = "reg" >
+
+<img src = "regular_bank.png" style = "position:absolute; right : 150px; top:100px;  ">
+
+
+        <div id = "creditcard"><span id = "span1"> <i class="far fa-credit-card"></i> <br>Cards </span></div>
+		<div id = "payment"><span id = "span2"> <i class="fas fa-rupee-sign"></i>  <br> Payments </span></div>
+		<div id = "loan"><span id = "span3">  <i class="fas fa-hand-holding-usd"></i> <br>Loan</span></div>
+		
+		<div id = "support"><span id = "span4">  <i class="fas fa-phone-square-alt"></i> <br>Support </span></div>
+		<div id = "rewards"><span id = "span5">  <i class="fas fa-trophy"></i> <br> Rewards </span></div>
+		<div id = "savings"><span id = "span6">  <i class="fas fa-piggy-bank"></i> <br> Savings </span></div>
+		
+		<div id = "investments"><span id = "span7"> <i class="fas fa-search-dollar"></i> <br> Investments </span></div>
+		<div id = "forex"><span id = "span8"> <i class="fas fa-euro-sign"></i>  <br> Forex</span></div>
+		<div id = "analytics"><span id = "span9">  <i class="fas fa-chart-line"></i> <br> Analytics</span></div>
+  
+  
+</div>
+ 
+
+<div id = "one">
+
+
+<img src = "onebanc_man.png" style = "position:absolute; right : 60px; top:240px; ">
+<img src = "swipe.png" style = "position:absolute; right : 80px; bottom:270px; width: 8% ">
+<img src = "swipe.png" style = "position:absolute; right : 50px; bottom:290px; width: 8% ">
+
+        <div id = "creditcard"><span id = "span1"> <i class="far fa-credit-card"></i> <br>Cards </span></div>
+		<div id = "payment"><span id = "span2"> <i class="fas fa-rupee-sign"></i>  <br> Payments </span></div>
+		<div id = "loan"><span id = "span3">  <i class="fas fa-hand-holding-usd"></i> <br>Loan</span></div>
+		
+		<div id = "support"><span id = "span4">  <i class="fas fa-phone-square-alt"></i> <br>Support </span></div>
+		<div id = "rewards"><span id = "span5">  <i class="fas fa-trophy"></i> <br> Rewards </span></div>
+		<div id = "savings"><span id = "span6">  <i class="fas fa-piggy-bank"></i> <br> Savings </span></div>
+		
+		<div id = "investments"><span id = "span7"> <i class="fas fa-search-dollar"></i> <br> Investments </span></div>
+		<div id = "forex"><span id = "span8"> <i class="fas fa-euro-sign"></i>  <br> Forex</span></div>
+		<div id = "analytics"><span id = "span9">  <i class="fas fa-chart-line"></i> <br> Analytics</span></div>
+  
+    
+</div>
+</div>
+ 
+<script>
+var loop_text = ["CARDS","PAYMENTS","LOANS","SUPPORTS","REWARDS","SAVINGS","INVESTMENTS","FOREX","ANALYTICS"];
+
+var i = 0;
+var speed = 1500;
+typeWriter();
+
+function typeWriter() {
+  if (i < loop_text.length) {
+    document.getElementById("animtext").innerHTML = loop_text[i] + "|";
+    i = (i+1)%(loop_text.length);
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+</body>
+
+</html>
+
+
